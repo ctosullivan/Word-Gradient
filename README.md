@@ -1,4 +1,4 @@
-# Word-Gradient
+# WordGradient
 
 A minimal CLI to create a word heat map by colour frequency.
 
