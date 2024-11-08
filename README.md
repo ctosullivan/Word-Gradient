@@ -6,10 +6,12 @@ Word list credit: https://www.kaggle.com/datasets/rtatman/english-word-frequency
 
 With thanks to the creators of [Rich](https://github.com/Textualize/rich) and [Rich-Gradient](https://pypi.org/project/rich-gradient/).
 
-options:
+Options:
 
 -h, --help show help message and exit
 
 -i, --inverse inverts the word frequency gradient - most uncommon words are coloured green
 
-Installation: pip install wordgradient
+Installation:
+
+pip install wordgradient
