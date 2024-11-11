@@ -9,7 +9,7 @@ setup(
        'console_scripts': [
            'wordgradient = wordgradient.command_line:main',
        ]},
-    version='0.01',
+    version='0.2',
     license='MIT',
     description = "Minimal CLI tool to create word frequency heatmap",
     author = "Cormac O' Sullivan",
