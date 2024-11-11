@@ -102,6 +102,6 @@ def main():
         output_colours = ["lime", "red"]
 
     console.print(Gradient('\n'.join(sorted_word_list), rainbow=cli_args.rainbow,colors=output_colours))
-    print(cli_args)
+
 if __name__ == "__main__":
     main()

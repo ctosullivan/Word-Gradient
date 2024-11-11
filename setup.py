@@ -9,7 +9,7 @@ setup(
        'console_scripts': [
            'wordgradient = wordgradient.command_line:main',
        ]},
-    version='0.3',
+    version='0.4',
     license='MIT',
     description = "Minimal CLI tool to create language frequency heatmap",
     long_description='''
@@ -44,7 +44,7 @@ setup(
     wordgradient lots of words to be sorted
 
     echo "lots of words to be sorted" | wordgradient
-    '''
+    ''',
     author = "Cormac O' Sullivan",
     author_email= 'cormac@cosullivan.dev',
     url = "https://github.com/ctosullivan/WordGradient",
