@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    package_dir={'':'src'},
-    packages=find_packages('src'),
-    package_data={'wordgradient': ['wordlist/*.csv']},
-    name='wordgradient',
-    entry_points={
-       'console_scripts': [
-           'wordgradient = wordgradient.command_line:main',
+    package_dir = {"":"src"},
+    packages = find_packages("src"),
+    package_data = {"wordgradient": ["wordlist/*.csv"]},
+    name = "wordgradient",
+    entry_points = {
+       "console_scripts": [
+           "wordgradient = wordgradient.command_line:main",
        ]},
-    version='0.4',
-    license='MIT',
+    version = "0.5",
+    license = 'MIT',
     description = "Minimal CLI tool to create language frequency heatmap",
-    long_description='''
+    long_description = """
     WordGradient
 
     A minimal CLI tool to create a language frequency heat map - useful for solving word games like Wordle and Spelling Bee and filtering uncommon words
@@ -44,13 +44,13 @@ setup(
     wordgradient lots of words to be sorted
 
     echo "lots of words to be sorted" | wordgradient
-    ''',
+    """,
     author = "Cormac O' Sullivan",
-    author_email= 'cormac@cosullivan.dev',
+    author_email = "cormac@cosullivan.dev",
     url = "https://github.com/ctosullivan/WordGradient",
-    zip_safe=True,
-    install_requires=[
-          'rich', 'rich-gradient',
+    zip_safe = True,
+    install_requires = [
+          "rich", "rich-gradient",
       ],
     classifiers = [
     "Programming Language :: Python :: 3",
